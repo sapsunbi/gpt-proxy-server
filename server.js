@@ -1,3 +1,4 @@
+console.log("✅ 실제 실행 중인 server.js입니다");
 import express from "express";
 import cors from "cors";
 import fetch from "node-fetch";
