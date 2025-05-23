@@ -35,6 +35,7 @@ app.post("/api/gpt", async (req, res) => {
 });
 
 const PORT = process.env.PORT || 3001;
+console.log("🧪 사용 중인 PORT 값:", PORT);
 app.listen(PORT, () => {
   console.log("✅ 실제 실행 중인 server.js입니다");
   console.log(`서버 실행 중: http://localhost:${PORT}`);
